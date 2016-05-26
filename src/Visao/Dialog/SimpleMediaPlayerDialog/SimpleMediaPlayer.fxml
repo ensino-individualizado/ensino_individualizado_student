@@ -12,12 +12,12 @@
          <children>
             <ImageView fx:id="playPause" onMouseClicked="#playPause" pickOnBounds="true" preserveRatio="true" styleClass="botao-levantado">
                <image>
-                  <Image url="@../../../resources/icons/multimedia/png/48/ic_play.png" />
+                  <Image url="@../../../resources/icons/ic_play.png" />
                </image>
             </ImageView>
             <ImageView fx:id="stop" onMouseClicked="#stop" pickOnBounds="true" preserveRatio="true" styleClass="botao-levantado">
                <image>
-                  <Image url="@../../../resources/icons/multimedia/png/48/ic_stop.png" />
+                  <Image url="@../../../resources/icons/ic_stop.png" />
                </image>
             </ImageView>
          </children>

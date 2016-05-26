@@ -6,7 +6,6 @@ hs_err_pid*
 /.idea
 /enunciados_tipo
 /out
-/src/resources/icons
 /src/resources/images
 bd_config.txt
 config.txt

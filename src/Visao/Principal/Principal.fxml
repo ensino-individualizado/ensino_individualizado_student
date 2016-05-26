@@ -12,7 +12,7 @@
    <children>
       <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
          <image>
-            <Image url="@../../resources/icons/networking/png/48/ic_id.png" />
+            <Image url="@../../resources/icons/ic_id.png" />
          </image>
       </ImageView>
       <Label styleClass="font-size-12" text="Aluno:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
@@ -24,7 +24,7 @@
          </styleClass></Button>
       <ImageView layoutX="43.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
          <image>
-            <Image url="@../../resources/icons/networking/png/48/ic_osi_model2.png" />
+            <Image url="@../../resources/icons/ic_layers.png" />
          </image>
       </ImageView>
       <Label layoutX="43.0" layoutY="158.0" styleClass="font-size-12" text="Avaliação:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0" />

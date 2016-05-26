@@ -319,7 +319,7 @@
                <graphic>
                   <ImageView fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../resources/icons/plainicon.com-48480-512px-3fb.png" />
+                        <Image url="@../../resources/icons/ic_backspace.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -330,7 +330,7 @@
          <graphic>
             <ImageView fx:id="end1" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#keyPress" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../resources/icons/ok.png" />
+                  <Image url="@../../resources/icons/ic_ok.png" />
                </image>
             </ImageView>
          </graphic>

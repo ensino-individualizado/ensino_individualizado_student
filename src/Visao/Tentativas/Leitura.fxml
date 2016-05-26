@@ -28,7 +28,7 @@
          <children>
             <ImageView pickOnBounds="true" preserveRatio="true" styleClass="imagem-levantado">
                <image>
-                  <Image url="@../../resources/icons/multimedia/png/48/ic_radio_microphone.png" />
+                  <Image url="@../../resources/icons/ic_radio_microphone.png" />
                </image>
             </ImageView>
             <Label styleClass="font-size-30" text="Estou te ouvindo">

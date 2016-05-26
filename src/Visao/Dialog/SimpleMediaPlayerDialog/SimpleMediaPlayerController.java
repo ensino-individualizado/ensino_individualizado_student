@@ -29,8 +29,8 @@ public class SimpleMediaPlayerController extends RegionController {
     private Media media;
     private MediaPlayer player;
 
-    Image pauseImageCache = new Image(String.valueOf(getClass().getResource("/resources/icons/multimedia/png/48/ic_pause.png")));
-    Image playImageCache = new Image(String.valueOf(getClass().getResource("/resources/icons/multimedia/png/48/ic_play.png")));
+    Image pauseImageCache = new Image(String.valueOf(getClass().getResource("/resources/icons/ic_pause.png")));
+    Image playImageCache = new Image(String.valueOf(getClass().getResource("/resources/icons/ic_play.png")));
 
     private boolean isPlaying = false;
 
