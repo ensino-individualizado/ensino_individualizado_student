@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="768.0" minWidth="1360.0" styleClass="fundo-verde" stylesheets="@../../resources/css/material-default-style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Tentativas.LeituraController">
+    <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="296.0" mnemonicParsing="false" onAction="#responder" style="-fx-background-color: rgba(0,0,0,0);" textAlignment="CENTER" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="340.0">
+         <graphic>
+              <Label fx:id="palavra" alignment="CENTER" text="&lt;Palavra&gt;" textAlignment="CENTER">
+                  <font>
+                      <Font name="Baskerville Old Face" size="64.0" />
+                  </font>
+               <styleClass>
+                  <String fx:value="label" />
+                  <String fx:value="font-size-64" />
+               </styleClass>
+              </Label>
+         </graphic>
+      </Button>
+      <HBox alignment="CENTER" layoutX="283.0" layoutY="590.0" visible="false" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView pickOnBounds="true" preserveRatio="true" styleClass="imagem-levantado">
+               <image>
+                  <Image url="@../../resources/icons/multimedia/png/48/ic_radio_microphone.png" />
+               </image>
+            </ImageView>
+            <Label styleClass="font-size-30" text="Estou te ouvindo">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>

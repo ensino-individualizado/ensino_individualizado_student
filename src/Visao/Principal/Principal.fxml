@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane styleClass="fundo-branco" stylesheets="@../../resources/css/material-default-style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Principal.PrincipalController">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <image>
+            <Image url="@../../resources/icons/networking/png/48/ic_id.png" />
+         </image>
+      </ImageView>
+      <Label styleClass="font-size-12" text="Aluno:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+      <ComboBox fx:id="alunos" onAction="#alunoSelected" prefWidth="150.0" promptText="SELECIONE" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0" />
+      <Button fx:id="iniciar" mnemonicParsing="false" onAction="#iniciar" text="INICIAR" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="160.0">
+         <styleClass>
+            <String fx:value="button-blue" />
+            <String fx:value="button-raised" />
+         </styleClass></Button>
+      <ImageView layoutX="43.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
+         <image>
+            <Image url="@../../resources/icons/networking/png/48/ic_osi_model2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="158.0" styleClass="font-size-12" text="Avaliação:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0" />
+      <ComboBox fx:id="avaliacoes" layoutX="43.0" layoutY="158.0" onAction="#avaliacaoSelected" prefWidth="150.0" promptText="SELECIONE" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="115.0" />
+   </children>
+</AnchorPane>
